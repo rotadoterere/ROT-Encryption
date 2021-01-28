@@ -2,10 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+/*
+  How to compile: gcc -o cypher rot1-25.c
+
 void fatal(int argc){
-  fprintf(stderr, "MODO DE USO\t./cypher STRING\n");
+  fprintf(stderr, "USE MODE\t./cypher STRING\n");
   if(argc > 2)
-    fprintf(stderr, "USE ASPAS: ./cypher \"STRING1 STRING 2 ...\"\n");
+    fprintf(stderr, "QUOTATION MARKS: ./cypher \"STRING1 STRING 2 ...\"\n");
   exit(3);
 }
 
