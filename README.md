@@ -1,6 +1,6 @@
 # ROT-Encryption
 
-Simulates ROT1 to ROT13
+Simulates ROT1 to ROT25
 
 # USAGE
 
