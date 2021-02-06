@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#How to compile: gcc -o cypher rot1-25.c
+//How to compile: gcc -o cypher rot1-25.c
 
 void fatal(int argc){
   fprintf(stderr, "USE MODE\t./cypher STRING\n");
