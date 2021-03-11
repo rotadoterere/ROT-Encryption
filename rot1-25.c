@@ -12,6 +12,7 @@ void fatal(int argc){
 }
 
 int main(int argc, char *argv[]){
+  
   if(argc != 2)
     fatal(argc);
 
